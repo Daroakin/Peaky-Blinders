@@ -1,0 +1,105 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+.banner {
+   background-image: url("../img/tms.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   height: 100vh;
+}
+ 
+.contenedor {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   padding: 20px;
+   margin: 0 3cm;
+ }
+ 
+ .logo img {
+   width: 150px;
+ }
+ 
+ .menu {
+   margin-left: auto;
+ }
+ 
+ .menu td {
+   padding: 10px;
+ }
+ 
+ .menu a {
+   color: #fff;
+   text-decoration: none;
+ }
+ 
+ .menu a:hover {
+   text-decoration: underline;
+ }
+ 
+ .contenido {
+   margin: 0 3cm;
+   margin-top: 0cm;
+ }
+ 
+ .informacion {
+   margin-bottom: 1cm;
+   color: #888;
+ }
+ 
+ .gris-claro {
+   color: #888;
+ }
+ 
+ .rojo {
+   color: #e50914;
+   background-color: #e50914;
+   padding: 4px 8px;
+   border-radius: 4px;
+ }
+ 
+ .rojo {
+   color: #fff;
+ }
+ 
+ .texto {
+   margin-bottom: 1cm;
+   max-width: 16cm;
+ }
+ 
+ .blanco-grande {
+   color: #fff;
+   font-size: 20px;
+ }
+ 
+ .boton-play {
+   width: 3cm;
+   height: 0.7cm;
+   background-color: #e50914;
+   color: #fff;
+   border: none;
+   border-radius: 4px;
+ }
+ 
+ .boton-list {
+   width: 3cm;
+   height: 0.7cm;
+   background-color: transparent;
+   color: #fff;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   margin-left: 0.5cm;
+ }
+ 
+ .boton-list:hover {
+   background-color: #5d5d5d55;
+ }
+ 
+ .informacion td {
+   padding: 0.2cm;
+ }
